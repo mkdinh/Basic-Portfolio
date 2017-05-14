@@ -1,30 +1,34 @@
+html {
+	box-sizing: border-box;
+	position: relative;
+	min-height: 100%;
+
+}
+
 body {
 	text-align: center;
-	margin:0;
+	margin: 0 0 100px;
 	padding:0;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
 }
 
-a{
-	text-decoration: none;
-	color: #777777;
-	padding: 0px 10px;
-	}
 
 h1{
 	color:	#7BAFD4;
 	font-size:28px;
 	padding-bottom:0;
+	font-family: 'Georgia', Times, Times New Roman, serif;.
 }
 
 h2{
 	color: 	#7BAFD4;
 	font-size:22px;
+	font-family: 'Georgia', Times, Times New Roman, serif;.
 }
 
 h3{
 	color: #777777;
-	font-family: Georgia;
+	font-family: 'Georgia', Times, Times New Roman, serif;.
 	font-size:18px;
 }
 
@@ -53,7 +57,6 @@ hr{
 }
 
 #name{
-	box-sizing: border-box;
 	background-color: 	#7BAFD4;
 	color: #ffffff;
 	float: left;
@@ -67,11 +70,26 @@ hr{
 #link {
 	float: right;
 	margin-top:30px;
+	margin-right:15px;
 	font-weight:bold;
 }
 
+#link a{
+	text-decoration: none;
+	color: #777777;
+	padding: 0px 10px;
+	}
+
+#link a:hover{
+	color: #f1f1f1;
+}
+
+#link a:active{
+	color: #7BAFD4 ;
+}
+
+
 #headerborder{
-	box-sizing: border-box;
 	background: #cccccc;
 	width: 100%;
 	height: 3px;
@@ -88,10 +106,9 @@ hr{
 #content{
 	text-align: left;
 	background: #ffffff;
-	
 	width: 650px;
 	float: left;
-	padding: 0px 20px 20px 20px;
+	padding: 20px;
 	box-sizing: border-box; 
 	margin-bottom: 100px;
 }
@@ -100,8 +117,11 @@ hr{
 	 position: relative;
 	 overflow: hidden;
 	 width:300px;
+	 height:200px;
 	 display: inline-block;
-	 margin:0px 1px 0px 1px;
+	 margin:0px 0px 0px 0px;
+	 border-style:solid;
+	 border-width:1px;
 }
 
 .label{
@@ -118,6 +138,12 @@ hr{
   text-align:center;
   font-family: 'Georgia', Times, Times New Roman, serif;
   color: #ffffff;
+  text-decoration: none;
+}
+
+.label:hover{
+	color:#2c2c2c;
+	opacity:0.8;
 }
 
 img.index{
@@ -136,65 +162,89 @@ img.portfolio{
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
 	color: #777777;}
 
+#content p{
+	line-height:130%;
+	text-align:justify;
+	font-size:15px;
+	text-indent: 25px;
+}
+
+
 #side{
 	background: #ffffff;
 	width: 270px;
 	float: right;
-	padding: 10px;
-	box-sizing: border-box; 
+	padding: 26px 10px 20px 10px;
 }
 
 #side img{
 	width: 50px;
 	margin:0;
-	padding: 5px;
+
+	margin-bottom: 5px;
+}
+
+
+#side a{
+	text-decoration: none;
+	padding:0;
+	margin-left:5px;
 }
 
 #footerborder{
-
 	background: #7BAFD4;
-	box-sizing: border-box;
 	width: 100%;
 	height: 5px;
 }
 
-.wrapper {
-    min-height: 100%;
-    position: relative;
-}	
 
-#footer{
+footer{
 	display: inline-block;
 	background: #666666;
 	width: 100%;
-	text-align: center;
-	color: #777777;	
 	position: absolute;
     left: 0px;
-    right: 0px;
 	bottom:0px;
-    margin-top: 50px;
+	height:100px;
     overflow: hidden;
+}
+
+footer p{
+	text-align: center;
+	color: #777777;	
+	margin:40px;
 }
 
 
 input[type=text]{
-	box-sizing: border-box;
 	width:100%;
 	font-size: 16px;
 	color: #777777;
-	padding:5px;
+	padding:5px 0 5px 0;
+	margin: 10px 0 10px 0;
 }
 
 
-input[type=comment]{
-	box-sizing: border-box;
+textarea[type=comment]{
 	width:100%;
 	height: 200px;
 	overflow: scroll;
 	font-size: 16px;
 	color: #777777;
-	padding:5px;
+	padding: 0px 5px 5px 0px;
+	margin: 10px 0 10px 0;	
 }
 
+.button1 {
+	background:#7BAFD4;
+	color:#ffffff;
+	font-size:20px;
+	padding: 15px 25px 15px 25px;
+	border:0;
+	margin-top: 22px;
+}
 
+.button1:hover{
+	background:#777777;
+	color:#7BAFD4;
+}	

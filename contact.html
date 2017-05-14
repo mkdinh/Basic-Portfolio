@@ -3,16 +3,14 @@
 
 	<head>
 		<title> Contact</title>
-			
+		
+		<link rel="stylesheet" type="text/css" href="assets\css\reset.css">
 		<link rel="stylesheet" type="text/css" href="assets\css\style.css">
+
 	</head>
 
 	<body background="assets\images\texture.jpg">
 
-
-
-	
-	<div class="wrapper">
 		<section id="nav" >
 		
 			<section id="header">
@@ -42,19 +40,22 @@
 
 					<hr>
 
-					<form>
-					<h3>Name</h3>
+					<form action="mailto:mkdinh94@gmail.com" method="post" enctype="text/plain">
 
-						<input type="text" name="FirstName" placeholder="John Smith"><br>
+						<h3>Name</h3>
+
+						<input type="text" name="name" placeholder="John Smith"><br>
 
 						<h3>Email</h3>
 
-						<input type="text" name="Email" placeholder="Email Address"><br>
-
+						<input type="text" name="mail" placeholder="JohnSmith@Email.com" wrap="hard"><br>
+						
 						<h3>Message</h3>
 
-						<input type="comment" name="FirstName"><br>
-		
+						<textarea rows="4" cols="3" type="comment" placeholder="message here"></textarea>
+
+						<input type="submit" class = "button1" value="Submit">
+						
 					</form>
 
 				</section>
@@ -68,22 +69,28 @@
 
 				<hr>
 
-					<img src="assets\images\GitHub.png" alt ="GitHub">
+					<a href="https://github.com/mkdinh">
+						<img class = "portfolio" src="assets\images\GitHub.png" alt ="GitHub">
+					</a>
 					
-					<img src="assets\images\LinkedIn.png" alt ="LinkedIn">
+					<a href="https://www.linkedin.com/in/michael-dinh-85308813b/">
+						<img src="assets\images\LinkedIn.png" alt ="LinkedIn">
+					</a>
 
-					<img src="assets\images\StackOverflow.png" alt ="StackOverflow">
+					<a href="https://stackoverflow.com/users/7876820/michael-dinh?tab=profile">	
+						<img src="assets\images\StackOverflow.png" alt ="StackOverflow">
+					</a>
+
 				</section>
 
 			</section>
 
-			<section id="footer">
+			<footer>
 
 				<section id="footerborder"></section>
 				
 				<p>&copy; Copyright 2017 Michael Dinh</p>
-			</section>
-		</div>
+			</footer>
 
 	</body>
 </html>
