@@ -54,7 +54,9 @@ hr{
 	width: 960px;
 	background: #ffffff;
 	margin:0px;
+
 }
+
 
 #name{
 	background-color: 	#7BAFD4;
@@ -68,9 +70,9 @@ hr{
 }
 
 #link {
+	font-size:16px;
 	float: right;
-	margin-top:30px;
-	margin-right:15px;
+	margin:25px 22px 0px 0px ;
 	font-weight:bold;
 }
 
@@ -111,6 +113,7 @@ hr{
 	padding: 20px;
 	box-sizing: border-box; 
 	margin-bottom: 100px;
+	border-radius: 15px;
 }
 
 .imagewrapper{
@@ -122,6 +125,7 @@ hr{
 	 margin:0px 0px 0px 0px;
 	 border-style:solid;
 	 border-width:1px;
+	
 }
 
 .label{
@@ -142,39 +146,43 @@ hr{
 }
 
 .label:hover{
-	color:#2c2c2c;
+	color:#b8b8b8;
 	opacity:0.8;
 }
 
 img.index{
 	float:left;
 	margin-right:20px;
+	border-radius: 10px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#000000;
+}
 }
 
 img.portfolio{
 	margin: 0px 0px 0px 0px;
 	width:100%;
+	border-radius: 0px;
 }
 
 #content p{
 	float:right;
 	font-size: 14px;
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
-	color: #777777;}
-
-#content p{
+	color: #777777;
 	line-height:130%;
+	margin-top:7px;
 	text-align:justify;
 	font-size:15px;
-	text-indent: 25px;
-}
-
+	text-indent: 25px}
 
 #side{
 	background: #ffffff;
 	width: 270px;
 	float: right;
 	padding: 26px 10px 20px 10px;
+	border-radius: 15px;
 }
 
 #side img{
@@ -189,6 +197,10 @@ img.portfolio{
 	text-decoration: none;
 	padding:0;
 	margin-left:5px;
+}
+
+#side img:hover {
+    box-shadow: 0 0 8px 4px #7BAFD4;
 }
 
 #footerborder{
@@ -231,7 +243,7 @@ textarea[type=comment]{
 	overflow: scroll;
 	font-size: 16px;
 	color: #777777;
-	padding: 0px 5px 5px 0px;
+	padding: 0px 0px 0px 0px;
 	margin: 10px 0 10px 0;	
 }
 
