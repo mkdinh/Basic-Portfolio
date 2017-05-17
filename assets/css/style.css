@@ -2,6 +2,7 @@ html {
 	box-sizing: border-box;
 	position: relative;
 	min-height: 100%;
+	display:inline-block;
 }
 
 body {
@@ -47,12 +48,23 @@ hr{
 
 }
 
+#div1 {
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-duration:60s;
+	animation-direction:alternate;
+	width:100px;
+	height:100px;
+	z-index:-1;
+}
+
 #header{
 	display: inline-block;
 	width: 960px;
 	background: #ffffff;
 	margin:0px;
 }
+
 
 
 #name{
@@ -81,6 +93,7 @@ hr{
 
 #link a:hover{
 	color: #f1f1f1;
+	transition: 0.3s ease-in-out;
 }
 
 #link a:active{
@@ -144,6 +157,7 @@ hr{
 .label:hover{
 	color:#b8b8b8;
 	opacity:0.8;
+	transition: 0.3s ease-in-out;
 }
 
 img.index{
@@ -198,6 +212,7 @@ img.portfolio{
 
 #side img:hover {
     box-shadow: 0 0 4px 2px #7BAFD4;
+    transition: box-shadow 0.3s ease-in-out;
 }
 
 #footerborder{
